@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Replace this with your actual MongoDB connection string
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://admin:yourpassword@cluster0.dhueqa9.mongodb.net/office_management?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://OM:12345@cluster0.dhueqa9.mongodb.net/office_management?retryWrites=true&w=majority&appName=Cluster0';
 const DB_NAME = 'office_management';
 
 let cachedClient = null;
