@@ -1,6 +1,6 @@
 import { Employee, CreateEmployeeRequest, UpdateEmployeeRequest } from '../types/employee';
 
-const API_BASE = '/api/employees';
+const API_BASE = 'http://localhost:3001/api/employees';
 
 // Employee API functions
 export const employeeAPI = {
