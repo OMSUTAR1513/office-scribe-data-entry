@@ -1,6 +1,8 @@
+
 import { Employee, CreateEmployeeRequest, UpdateEmployeeRequest } from '../types/employee';
 
-const API_BASE = 'http://localhost:3001/api/employees';
+// Use Vercel serverless functions for API calls
+const API_BASE = '/api/employees';
 
 // Employee API functions
 export const employeeAPI = {

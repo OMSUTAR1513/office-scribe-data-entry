@@ -1,8 +1,9 @@
+
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { MongoClient, ObjectId } from 'mongodb';
 
-// Replace this with your actual MongoDB connection string
-const MONGODB_URI = process.env.MONGODB_URI || 'YOUR_MONGODB_CONNECTION_STRING_HERE';
+// Your MongoDB connection string
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://OM:12345@cluster0.dhueqa9.mongodb.net/office_management?retryWrites=true&w=majority&appName=Cluster0';
 const DB_NAME = 'office_management';
 
 let cachedClient: MongoClient | null = null;
